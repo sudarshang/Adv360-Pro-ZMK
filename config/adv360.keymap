@@ -60,11 +60,11 @@
 
         layer_fn {
             bindings = <
- &kp F1  &kp F2     &kp F3    &kp F4        &kp F5  &kp F6            &tog 1                                                   &mo 3  &kp F7  &kp F8   &kp F9  &kp F10  &kp F11  &kp F12
- &trans  &trans     &trans    &trans  &kp LS(LGUI)  &trans             &none                                                   &none  &trans  &kp F1   &kp F2   &kp F3   &kp F4   &trans
- &trans  &trans  &kp LCTRL  &kp LALT      &kp LGUI  &trans             &none  &trans  &trans                  &trans  &trans   &none  &trans  &kp F5   &kp F6   &kp F7   &kp F8   &trans
- &trans  &trans     &trans    &trans        &trans  &trans                            &trans                  &trans                  &trans  &kp F9  &kp F10  &kp F11  &kp F12   &trans
- &trans  &trans     &trans    &trans        &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans   &trans   &trans   &trans   &trans
+ &kp F1  &kp F2         &kp F3        &kp F4        &kp F5  &kp F6            &tog 1                                                   &mo 3  &kp F7  &kp F8   &kp F9  &kp F10  &kp F11  &kp F12
+ &trans  &trans  &kp LS(LCTRL)  &kp LS(LALT)  &kp LS(LGUI)  &trans             &none                                                   &none  &trans  &kp F1   &kp F2   &kp F3   &kp F4   &trans
+ &trans  &trans      &kp LCTRL      &kp LALT      &kp LGUI  &trans             &none  &trans  &trans                  &trans  &trans   &none  &trans  &kp F5   &kp F6   &kp F7   &kp F8   &trans
+ &trans  &trans         &trans        &trans         &mo 4  &trans                            &trans                  &trans                  &trans  &kp F9  &kp F10  &kp F11  &kp F12   &trans
+ &trans  &trans         &trans        &trans        &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans   &trans   &trans   &trans   &trans
             >;
         };
 
@@ -75,6 +75,16 @@
   &none         &none         &none         &none         &none         &none                  &none   &none   &none                  &bt BT_CLR       &none  &rgb_ug RGB_MEFS_CMD 5   &none       &none       &none   &none   &none   &none
   &none         &none         &none         &none    &macro_ver         &none                                  &none                       &none                                       &none       &none       &none   &none   &none   &none
   &none         &none         &none         &none         &none                                &none   &none   &none                       &none  &bl BL_TOG         &rgb_ug RGB_TOG          &bl BL_INC  &bl BL_DEC   &none   &none   &none
+            >;
+        };
+
+        layer_Num {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans     &trans   &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &kp N1  &kp N2     &kp N3   &kp N4  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &kp N5  &kp N6     &kp N7   &kp N8  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &kp N9  &kp N0  &kp COMMA  &kp DOT  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans     &trans   &trans  &trans  &trans
             >;
         };
 
