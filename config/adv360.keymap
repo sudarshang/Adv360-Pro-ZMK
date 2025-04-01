@@ -59,12 +59,14 @@
             bindings = <&kp SPACE>;
             key-positions = <41 42 43>;
             layers = <0>;
+            timeout-ms = <75>;
         };
 
         enter-no-thumb {
             bindings = <&kp ENTER>;
             key-positions = <32 30 31>;
             layers = <0>;
+            timeout-ms = <75>;
         };
     };
 
