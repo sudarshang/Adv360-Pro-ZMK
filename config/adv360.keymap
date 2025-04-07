@@ -35,7 +35,7 @@
             compatible = "zmk,behavior-caps-word";
             label = "CAPS_WORD";
             #binding-cells = <0>;
-            continue-list = <MINUS UNDERSCORE>;
+            continue-list = <MINUS UNDERSCORE BACKSPACE>;
         };
 
         extra1 {
