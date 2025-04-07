@@ -145,7 +145,7 @@
             bindings = <
 &trans  &trans        &trans             &trans                    &trans            &trans  &trans                                      &trans  &trans  &trans    &trans    &trans     &trans  &trans
 &trans  &kp LS(BSLH)  &kp LS(SEMICOLON)  &kp LS(LS(SINGLE_QUOTE))  &kp SINGLE_QUOTE  &trans  &trans                                      &trans  &trans  &trans    &trans    &trans     &trans  &trans
-&trans  &kp LS(N1)    &kp LS(EQUAL)      &kp LS(RBKT)              &kp LS(N0)        &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp RGUI  &kp RALT  &kp RCTRL  &trans  &trans
+&trans  &kp LS(N1)    &kp LS(EQUAL)      &kp LS(COMMA)             &kp LS(DOT)       &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp RGUI  &kp RALT  &kp RCTRL  &trans  &trans
 &trans  &kp BSLH      &kp LS(GRAVE)      &kp EQUAL                 &kp LS(MINUS)     &trans                  &trans      &trans                  &trans  &mo 7     &mo 7     &mo 7      &trans  &trans
 &trans  &trans        &trans             &trans                    &trans                    &trans  &trans  &trans      &trans  &trans  &trans          &trans    &trans    &trans     &trans  &trans
             >;
@@ -155,7 +155,7 @@
             bindings = <
 &trans  &trans  &trans        &trans         &trans        &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans        &kp LS(COMMA)  &kp LS(DOT)   &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp LS(LBKT)  &kp RBKT       &kp LS(N9)    &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp LS(RBKT)  &kp RBKT       &kp LS(N0)    &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans        &kp LS(EQUAL)  &kp LS(FSLH)  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans        &trans         &trans                &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
