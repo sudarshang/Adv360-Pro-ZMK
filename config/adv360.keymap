@@ -85,7 +85,7 @@
 &kp ESC     &kp B   &kp Y      &kp O     &kp U      &kp SINGLE_QUOTE  &kp LSHFT                                                &kp RSHFT  &kp SEMICOLON  &kp L   &kp D     &kp W     &kp V   &kp Z
 &kp TAB     &kp C   &kp I      &kp E     &kp A      &kp COMMA         &kp LCTRL  &kp LGUI  &kp LALT      &kp RALT   &kp RGUI   &kp RCTRL  &kp DOT        &kp H   &kp T     &kp S     &kp N   &kp Q
 &kp LSHFT   &kp G   &kp X      &kp J     &kp K      &kp MINUS                              &kp HOME      &kp PG_UP                        &kp FSLH       &kp R   &kp M     &kp F     &kp P   &kp RSHFT
-&caps_word  &mo 2   &kp GRAVE  &kp LEFT  &kp RIGHT                    &kp BSPC   &kp DEL   &kp END       &kp PG_DN  &kp ENTER  &kp SPACE                 &kp UP  &kp DOWN  &kp LBKT  &mo 6   &kp GLOBE
+&caps_word  &mo 2   &kp GRAVE  &kp LEFT  &kp RIGHT                    &kp BSPC   &kp DEL   &kp END       &kp PG_DN  &kp ENTER  &kp SPACE                 &kp UP  &kp DOWN  &kp LBKT  &mo 6   &kp RIGHT_SHIFT
             >;
         };
 
@@ -103,11 +103,11 @@
         layer_fn {
             display-name = "Fn";
             bindings = <
-&kp F1  &kp F2  &kp F3         &kp F4        &kp F5        &kp F6  &tog 1                                      &mo 3   &kp F7   &kp F8  &kp F9   &kp F10  &kp F11  &kp F12
-&trans  &trans  &kp LS(LCTRL)  &kp LS(LALT)  &kp LS(LGUI)  &trans  &none                                       &none   &trans   &kp F1  &kp F2   &kp F3   &kp F4   &trans
-&trans  &trans  &kp LCTRL      &kp LALT      &kp LGUI      &trans  &none   &trans  &trans      &trans  &trans  &none   &trans   &kp F5  &kp F6   &kp F7   &kp F8   &trans
-&trans  &trans  &trans         &mo 5         &mo 4         &trans                  &trans      &trans                  &kp F24  &kp F9  &kp F10  &kp F11  &kp F12  &trans
-&trans  &trans  &trans         &trans        &trans                &trans  &trans  &trans      &trans  &trans  &trans           &trans  &trans   &trans   &trans   &trans
+&kp F1  &kp F2  &kp F3         &kp F4        &kp F5        &kp F6  &tog 1                                      &mo 3   &kp F7  &kp F8  &kp F9   &kp F10  &kp F11  &kp F12
+&trans  &trans  &kp LS(LCTRL)  &kp LS(LALT)  &kp LS(LGUI)  &trans  &none                                       &none   &trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans
+&trans  &trans  &kp LCTRL      &kp LALT      &kp LGUI      &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans
+&trans  &trans  &trans         &mo 5         &mo 4         &trans                  &trans      &trans                  &trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans
+&trans  &trans  &trans         &trans        &trans                &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans   &trans   &trans   &trans
             >;
         };
 
