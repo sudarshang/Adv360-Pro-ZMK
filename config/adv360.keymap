@@ -62,12 +62,6 @@
     combos {
         compatible = "zmk,combos";
 
-        space-no-thumb {
-            bindings = <&kp SPACE>;
-            key-positions = <41 42>;
-            layers = <0>;
-        };
-
         enter-no-thumb {
             bindings = <&kp ENTER>;
             key-positions = <32 31>;
