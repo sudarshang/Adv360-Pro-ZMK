@@ -97,11 +97,11 @@
         layer_number {
             display-name = "Fn";
             bindings = <
-&kp F1  &kp F2  &kp F3         &kp F4        &kp F5        &kp F6  &tog 1                                      &mo 3   &kp F7  &kp F8  &kp F9   &kp F10  &kp F11  &kp F12
-&trans  &trans  &kp LS(LCTRL)  &kp LS(LALT)  &kp LS(LGUI)  &trans  &none                                       &none   &trans  &kp N1  &kp F2   &kp F3   &kp F4   &trans
-&trans  &trans  &kp LCTRL      &kp LALT      &kp LGUI      &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans
-&trans  &trans  &trans         &mo 5         &mo 4         &trans                  &trans      &trans                  &trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans
-&trans  &trans  &trans         &trans        &trans                &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans   &trans   &trans   &trans
+&kp F1  &kp F2  &kp F3         &kp F4        &kp F5        &kp F6  &tog 1                                      &mo 3   &kp F7  &kp F8          &kp F9          &kp F10         &kp F11             &kp F12
+&trans  &trans  &kp LS(LCTRL)  &kp LS(LALT)  &kp LS(LGUI)  &trans  &none                                       &none   &trans  &kp N1          &kp LG(F2)      &kp LA(F3)      &kp LC(F4)          &trans
+&trans  &trans  &kp LCTRL      &kp LALT      &kp LGUI      &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &kp LA(LG(F5))  &kp LC(LG(F6))  &kp LC(LA(F7))  &kp LA(LC(LG(F8)))  &trans
+&trans  &trans  &trans         &mo 5         &mo 4         &trans                  &trans      &trans                  &trans  &kp F9          &kp F10         &kp F11         &kp F12             &trans
+&trans  &trans  &trans         &trans        &trans                &trans  &trans  &trans      &trans  &trans  &trans          &trans          &trans          &trans          &trans              &trans
             >;
         };
 
