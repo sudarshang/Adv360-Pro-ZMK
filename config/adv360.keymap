@@ -79,7 +79,7 @@
 &kp ESC     &kp B   &kp Y      &kp O     &kp U      &kp SINGLE_QUOTE  &kp LSHFT                                                     &kp RSHFT   &kp SEMICOLON  &kp L   &kp D     &kp W     &kp V   &kp Z
 &kp TAB     &kp C   &kp I      &kp E     &kp A      &kp COMMA         &kp LCTRL  &kp LGUI       &kp LALT      &kp RALT   &kp RGUI   &kp RCTRL   &kp DOT        &kp H   &kp T     &kp S     &kp N   &kp Q
 &kp LSHFT   &kp G   &kp X      &kp J     &kp K      &kp MINUS                                   &kp HOME      &kp PG_UP                         &kp FSLH       &kp R   &kp M     &kp F     &kp P   &kp RSHFT
-&caps_word  &mo 2   &kp GRAVE  &kp LEFT  &kp RIGHT                    &kp ENTER  &kp BACKSPACE  &kp END       &kp PG_DN  &kp SPACE  &kp DELETE                 &kp UP  &kp DOWN  &kp LBKT  &mo 6   &kp RIGHT_SHIFT
+&caps_word  &mo 2   &kp GRAVE  &kp LEFT  &kp RIGHT                    &kp ENTER  &kp BACKSPACE  &kp END       &kp PG_DN  &kp SPACE  &kp DELETE                 &kp UP  &kp DOWN  &kp LBKT  &mo 5   &kp RIGHT_SHIFT
             >;
         };
 
@@ -97,11 +97,11 @@
         layer_number {
             display-name = "Num";
             bindings = <
-&kp F1  &kp F2  &kp F3         &kp F4        &kp F5        &kp F6  &tog 1                                      &mo 3   &kp F7  &kp F8          &kp F9          &kp F10         &kp F11    &kp F12
-&trans  &trans  &kp LS(LCTRL)  &kp LS(LALT)  &kp LS(LGUI)  &trans  &none                                       &none   &trans  &kp N1          &kp N2          &kp N3          &kp N4     &trans
-&trans  &trans  &kp LCTRL      &kp LALT      &kp LGUI      &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &kp N5          &kp N6          &kp N7          &kp N8     &trans
-&trans  &trans  &trans         &mo 5         &mo 4         &trans                  &trans      &trans                  &trans  &kp N9          &kp N0          &kp DOT         &kp COMMA  &trans
-&trans  &trans  &trans         &trans        &trans                &trans  &trans  &trans      &trans  &trans  &trans          &trans          &trans          &trans          &trans     &trans
+&kp F1  &kp F2  &kp F3         &kp F4        &kp F5        &kp F6  &tog 1                                      &mo 3   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11    &kp F12
+&trans  &trans  &kp LS(LCTRL)  &kp LS(LALT)  &kp LS(LGUI)  &trans  &none                                       &none   &trans  &kp N1  &kp N2  &kp N3   &kp N4     &trans
+&trans  &trans  &mo 9          &mo 8         &mo 7         &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &kp N5  &kp N6  &kp N7   &kp N8     &trans
+&trans  &trans  &trans         &mo 4         &mo 4         &trans                  &trans      &trans                  &trans  &kp N9  &kp N0  &kp DOT  &kp COMMA  &trans
+&trans  &trans  &trans         &trans        &trans                &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans   &trans     &trans
             >;
         };
 
@@ -112,16 +112,6 @@
 &none  &none         &none         &none         &none         &none         &none        &none  &none      &bt BT_CLR  &none       &rgb_ug RGB_MEFS_CMD 5  &none  &none       &none       &none  &none  &none
 &none  &none         &none         &none         &macro_ver    &none                             &none      &none                                           &none  &none       &none       &none  &none  &none
 &none  &none         &none         &none         &none                       &none        &none  &none      &none       &bl BL_TOG  &rgb_ug RGB_TOG                &bl BL_INC  &bl BL_DEC  &none  &none  &none
-            >;
-        };
-
-        layer_Num {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans   &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &kp N1  &kp N2  &kp N3   &kp N4     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp N5  &kp N6  &kp N7   &kp N8     &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &kp N9  &kp N0  &kp DOT  &kp COMMA  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans   &trans     &trans
             >;
         };
 
@@ -140,7 +130,7 @@
 &trans  &trans        &trans             &trans                    &trans            &trans  &trans                                      &trans  &trans  &trans    &trans    &trans     &trans  &trans
 &trans  &kp LS(BSLH)  &kp LS(SEMICOLON)  &kp LS(LS(SINGLE_QUOTE))  &kp SINGLE_QUOTE  &trans  &trans                                      &trans  &trans  &trans    &trans    &trans     &trans  &trans
 &trans  &kp LS(N1)    &kp LS(EQUAL)      &kp LS(COMMA)             &kp LS(DOT)       &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp RGUI  &kp RALT  &kp RCTRL  &trans  &trans
-&trans  &kp BSLH      &kp LS(GRAVE)      &kp EQUAL                 &kp LS(MINUS)     &trans                  &trans      &trans                  &trans  &mo 7     &mo 7     &mo 7      &trans  &trans
+&trans  &kp BSLH      &kp LS(GRAVE)      &kp EQUAL                 &kp LS(MINUS)     &trans                  &trans      &trans                  &trans  &mo 6     &mo 6     &mo 6      &trans  &trans
 &trans  &trans        &trans             &trans                    &trans                    &trans  &trans  &trans      &trans  &trans  &trans          &trans    &trans    &trans     &trans  &trans
             >;
         };
@@ -158,77 +148,77 @@
         layer_cmd_fn {
             display-name = "CmdFn";
             bindings = <
-&kp F1  &kp F2  &kp F3         &kp F4        &kp F5        &kp F6  &tog 1                                      &mo 3   &kp F7  &kp F8          &kp F9          &kp F10         &kp F11             &kp F12
-&trans  &trans  &kp LS(LCTRL)  &kp LS(LALT)  &kp LS(LGUI)  &trans  &none                                       &none   &trans  &kp LG(F1)      &kp LG(F2)      &kp LG(F3)      &kp LG(F4)          &trans
-&trans  &trans  &kp LCTRL      &kp LALT      &kp LGUI      &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &kp LG(F5)      &kp LG(F6)      &kp LG(F7)      &kp LG(F8)          &trans
-&trans  &trans  &trans         &mo 5         &mo 4         &trans                  &trans      &trans                  &trans  &kp LG(F9)      &kp LG(F10)     &kp LG(F11)     &kp LG(F12)         &trans
-&trans  &trans  &trans         &trans        &trans                &trans  &trans  &trans      &trans  &trans  &trans          &trans          &trans          &trans          &trans              &trans
+&kp F1  &kp F2  &kp F3         &kp F4        &kp F5        &kp F6  &tog 1                                      &mo 3   &kp F7  &kp F8      &kp F9       &kp F10      &kp F11      &kp F12
+&trans  &trans  &kp LS(LCTRL)  &kp LS(LALT)  &kp LS(LGUI)  &trans  &none                                       &none   &trans  &kp LG(F1)  &kp LG(F2)   &kp LG(F3)   &kp LG(F4)   &trans
+&trans  &trans  &mo 11         &mo 10        &trans        &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &kp LG(F5)  &kp LG(F6)   &kp LG(F7)   &kp LG(F8)   &trans
+&trans  &trans  &trans         &mo 4         &mo 4         &trans                  &trans      &trans                  &trans  &kp LG(F9)  &kp LG(F10)  &kp LG(F11)  &kp LG(F12)  &trans
+&trans  &trans  &trans         &trans        &trans                &trans  &trans  &trans      &trans  &trans  &trans          &trans      &trans       &trans       &trans       &trans
             >;
         };
 
         layer_opt_fn {
             display-name = "OptFn";
             bindings = <
-&kp F1  &kp F2  &kp F3         &kp F4        &kp F5        &kp F6  &tog 1                                      &mo 3   &kp F7  &kp F8          &kp F9          &kp F10         &kp F11             &kp F12
-&trans  &trans  &kp LS(LCTRL)  &kp LS(LALT)  &kp LS(LGUI)  &trans  &none                                       &none   &trans  &kp LA(F1)      &kp LA(F2)      &kp LA(F3)      &kp LA(F4)          &trans
-&trans  &trans  &kp LCTRL      &kp LALT      &kp LGUI      &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &kp LA(F5)      &kp LA(F6)      &kp LA(F7)      &kp LA(F8)          &trans
-&trans  &trans  &trans         &mo 5         &mo 4         &trans                  &trans      &trans                  &trans  &kp LA(F9)      &kp LA(F10)     &kp LA(F11)     &kp LA(F12)         &trans
-&trans  &trans  &trans         &trans        &trans                &trans  &trans  &trans      &trans  &trans  &trans          &trans          &trans          &trans          &trans              &trans
+&kp F1  &kp F2  &kp F3         &kp F4        &kp F5        &kp F6  &tog 1                                      &mo 3   &kp F7  &kp F8      &kp F9       &kp F10      &kp F11      &kp F12
+&trans  &trans  &kp LS(LCTRL)  &kp LS(LALT)  &kp LS(LGUI)  &trans  &none                                       &none   &trans  &kp LA(F1)  &kp LA(F2)   &kp LA(F3)   &kp LA(F4)   &trans
+&trans  &trans  &mo 12         &trans        &mo 10        &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &kp LA(F5)  &kp LA(F6)   &kp LA(F7)   &kp LA(F8)   &trans
+&trans  &trans  &trans         &mo 4         &mo 4         &trans                  &trans      &trans                  &trans  &kp LA(F9)  &kp LA(F10)  &kp LA(F11)  &kp LA(F12)  &trans
+&trans  &trans  &trans         &trans        &trans                &trans  &trans  &trans      &trans  &trans  &trans          &trans      &trans       &trans       &trans       &trans
             >;
         };
 
         layer_ctrl_fn {
             display-name = "CtrlFn";
             bindings = <
-&kp F1  &kp F2  &kp F3         &kp F4        &kp F5        &kp F6  &tog 1                                      &mo 3   &kp F7  &kp F8          &kp F9          &kp F10         &kp F11             &kp F12
-&trans  &trans  &kp LS(LCTRL)  &kp LS(LALT)  &kp LS(LGUI)  &trans  &none                                       &none   &trans  &kp LC(F1)      &kp LC(F2)      &kp LC(F3)      &kp LC(F4)          &trans
-&trans  &trans  &kp LCTRL      &kp LALT      &kp LGUI      &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &kp LC(F5)      &kp LC(F6)      &kp LC(F7)      &kp LC(F8)          &trans
-&trans  &trans  &trans         &mo 5         &mo 4         &trans                  &trans      &trans                  &trans  &kp LC(F9)      &kp LC(F10)     &kp LC(F11)     &kp LC(F12)         &trans
-&trans  &trans  &trans         &trans        &trans                &trans  &trans  &trans      &trans  &trans  &trans          &trans          &trans          &trans          &trans              &trans
+&kp F1  &kp F2  &kp F3         &kp F4        &kp F5        &kp F6  &tog 1                                      &mo 3   &kp F7  &kp F8      &kp F9       &kp F10      &kp F11      &kp F12
+&trans  &trans  &kp LS(LCTRL)  &kp LS(LALT)  &kp LS(LGUI)  &trans  &none                                       &none   &trans  &kp LC(F1)  &kp LC(F2)   &kp LC(F3)   &kp LC(F4)   &trans
+&trans  &trans  &trans         &mo 12        &mo 11        &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &kp LC(F5)  &kp LC(F6)   &kp LC(F7)   &kp LC(F8)   &trans
+&trans  &trans  &trans         &mo 4         &mo 4         &trans                  &trans      &trans                  &trans  &kp LC(F9)  &kp LC(F10)  &kp LC(F11)  &kp LC(F12)  &trans
+&trans  &trans  &trans         &trans        &trans                &trans  &trans  &trans      &trans  &trans  &trans          &trans      &trans       &trans       &trans       &trans
             >;
-        };        
-        
+        };
+
         layer_cmd_opt_fn {
             display-name = "CmdOptFn";
             bindings = <
-&kp F1  &kp F2  &kp F3         &kp F4        &kp F5        &kp F6  &tog 1                                      &mo 3   &kp F7  &kp F8          &kp F9          &kp F10         &kp F11             &kp F12
-&trans  &trans  &kp LS(LCTRL)  &kp LS(LALT)  &kp LS(LGUI)  &trans  &none                                       &none   &trans  &kp LA(LG(F1))  &kp LA(LG(F2))  &kp LA(LG(F3))  &kp LA(LG(F4))      &trans
-&trans  &trans  &kp LCTRL      &kp LALT      &kp LGUI      &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &kp LA(LG(F5))  &kp LA(LG(F6))  &kp LA(LG(F7))  &kp LA(LG(F8))      &trans
-&trans  &trans  &trans         &mo 5         &mo 4         &trans                  &trans      &trans                  &trans  &kp LA(LG(F9))  &kp LA(LG(F10)) &kp LA(LG(F11)) &kp LA(LG(F12))     &trans
-&trans  &trans  &trans         &trans        &trans                &trans  &trans  &trans      &trans  &trans  &trans          &trans          &trans          &trans          &trans              &trans
+&kp F1  &kp F2  &kp F3         &kp F4        &kp F5        &kp F6  &tog 1                                      &mo 3   &kp F7  &kp F8          &kp F9           &kp F10          &kp F11          &kp F12
+&trans  &trans  &kp LS(LCTRL)  &kp LS(LALT)  &kp LS(LGUI)  &trans  &none                                       &none   &trans  &kp LA(LG(F1))  &kp LA(LG(F2))   &kp LA(LG(F3))   &kp LA(LG(F4))   &trans
+&trans  &trans  &mo 13         &trans        &trans        &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &kp LA(LG(F5))  &kp LA(LG(F6))   &kp LA(LG(F7))   &kp LA(LG(F8))   &trans
+&trans  &trans  &trans         &mo 4         &mo 4         &trans                  &trans      &trans                  &trans  &kp LA(LG(F9))  &kp LA(LG(F10))  &kp LA(LG(F11))  &kp LA(LG(F12))  &trans
+&trans  &trans  &trans         &trans        &trans                &trans  &trans  &trans      &trans  &trans  &trans          &trans          &trans           &trans           &trans           &trans
             >;
         };
 
         layer_cmd_ctrl_fn {
             display-name = "CmdCtrlFn";
             bindings = <
-&kp F1  &kp F2  &kp F3         &kp F4        &kp F5        &kp F6  &tog 1                                      &mo 3   &kp F7  &kp F8          &kp F9          &kp F10         &kp F11             &kp F12
-&trans  &trans  &kp LS(LCTRL)  &kp LS(LALT)  &kp LS(LGUI)  &trans  &none                                       &none   &trans  &kp LC(LG(F1))  &kp LC(LG(F2))  &kp LC(LG(F3))  &kp LC(LG(F4))      &trans
-&trans  &trans  &kp LCTRL      &kp LALT      &kp LGUI      &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &kp LC(LG(F5))  &kp LC(LG(F6))  &kp LC(LG(F7))  &kp LC(LG(F8))      &trans
-&trans  &trans  &trans         &mo 5         &mo 4         &trans                  &trans      &trans                  &trans  &kp LC(LG(F9))  &kp LC(LG(F10)) &kp LC(LG(F11)) &kp LC(LG(F12))     &trans
-&trans  &trans  &trans         &trans        &trans                &trans  &trans  &trans      &trans  &trans  &trans          &trans          &trans          &trans          &trans              &trans
+&kp F1  &kp F2  &kp F3         &kp F4        &kp F5        &kp F6  &tog 1                                      &mo 3   &kp F7  &kp F8          &kp F9           &kp F10          &kp F11          &kp F12
+&trans  &trans  &kp LS(LCTRL)  &kp LS(LALT)  &kp LS(LGUI)  &trans  &none                                       &none   &trans  &kp LC(LG(F1))  &kp LC(LG(F2))   &kp LC(LG(F3))   &kp LC(LG(F4))   &trans
+&trans  &trans  &trans         &mo 13        &trans        &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &kp LC(LG(F5))  &kp LC(LG(F6))   &kp LC(LG(F7))   &kp LC(LG(F8))   &trans
+&trans  &trans  &trans         &mo 4         &mo 4         &trans                  &trans      &trans                  &trans  &kp LC(LG(F9))  &kp LC(LG(F10))  &kp LC(LG(F11))  &kp LC(LG(F12))  &trans
+&trans  &trans  &trans         &trans        &trans                &trans  &trans  &trans      &trans  &trans  &trans          &trans          &trans           &trans           &trans           &trans
             >;
         };
 
         layer_opt_ctrl_fn {
             display-name = "OptCtrlFn";
             bindings = <
-&kp F1  &kp F2  &kp F3         &kp F4        &kp F5        &kp F6  &tog 1                                      &mo 3   &kp F7  &kp F8          &kp F9          &kp F10         &kp F11             &kp F12
-&trans  &trans  &kp LS(LCTRL)  &kp LS(LALT)  &kp LS(LGUI)  &trans  &none                                       &none   &trans  &kp LA(LG(F1))  &kp LA(LG(F2))  &kp LA(LG(F3))  &kp LA(LG(F4))      &trans
-&trans  &trans  &kp LCTRL      &kp LALT      &kp LGUI      &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &kp LA(LG(F5))  &kp LA(LG(F6))  &kp LA(LG(F7))  &kp LA(LG(F8))      &trans
-&trans  &trans  &trans         &mo 5         &mo 4         &trans                  &trans      &trans                  &trans  &kp LA(LG(F9))  &kp LA(LG(F10)) &kp LA(LG(F11)) &kp LA(LG(F12))     &trans
-&trans  &trans  &trans         &trans        &trans                &trans  &trans  &trans      &trans  &trans  &trans          &trans          &trans          &trans          &trans              &trans
+&kp F1  &kp F2  &kp F3         &kp F4        &kp F5        &kp F6  &tog 1                                      &mo 3   &kp F7  &kp F8          &kp F9           &kp F10          &kp F11          &kp F12
+&trans  &trans  &kp LS(LCTRL)  &kp LS(LALT)  &kp LS(LGUI)  &trans  &none                                       &none   &trans  &kp LA(LG(F1))  &kp LA(LG(F2))   &kp LA(LG(F3))   &kp LA(LG(F4))   &trans
+&trans  &trans  &trans         &trans        &mo 13        &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &kp LA(LG(F5))  &kp LA(LG(F6))   &kp LA(LG(F7))   &kp LA(LG(F8))   &trans
+&trans  &trans  &trans         &mo 4         &mo 4         &trans                  &trans      &trans                  &trans  &kp LA(LG(F9))  &kp LA(LG(F10))  &kp LA(LG(F11))  &kp LA(LG(F12))  &trans
+&trans  &trans  &trans         &trans        &trans                &trans  &trans  &trans      &trans  &trans  &trans          &trans          &trans           &trans           &trans           &trans
             >;
         };
 
         layer_cmd_opt_ctrl_fn {
             display-name = "CmdOptCtrlFn";
             bindings = <
-&kp F1  &kp F2  &kp F3         &kp F4        &kp F5        &kp F6  &tog 1                                      &mo 3   &kp F7  &kp F8             &kp F9             &kp F10            &kp F11                    &kp F12
-&trans  &trans  &kp LS(LCTRL)  &kp LS(LALT)  &kp LS(LGUI)  &trans  &none                                       &none   &trans  &kp LA(LC(LG(F1))) &kp LA(LC(LG(F2))) &kp LA(LC(LG(F3))) &kp LA(LC(LG(F4)))         &trans
-&trans  &trans  &kp LCTRL      &kp LALT      &kp LGUI      &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &kp LA(LC(LG(F5))) &kp LA(LC(LG(F6))) &kp LA(LC(LG(F7))) &kp LA(LC(LG(F8)))         &trans
-&trans  &trans  &trans         &mo 5         &mo 4         &trans                  &trans      &trans                  &trans  &kp LA(LC(LG(F9))) &kp LA(LC(LG(F10)))&kp LA(LC(LG(F11)))&kp LA(LC(LG(F12)))        &trans
-&trans  &trans  &trans         &trans        &trans                &trans  &trans  &trans      &trans  &trans  &trans          &trans          &trans          &trans          &trans              &trans
+&kp F1  &kp F2  &kp F3         &kp F4        &kp F5        &kp F6  &tog 1                                      &mo 3   &kp F7  &kp F8              &kp F9               &kp F10              &kp F11              &kp F12
+&trans  &trans  &kp LS(LCTRL)  &kp LS(LALT)  &kp LS(LGUI)  &trans  &none                                       &none   &trans  &kp LA(LC(LG(F1)))  &kp LA(LC(LG(F2)))   &kp LA(LC(LG(F3)))   &kp LA(LC(LG(F4)))   &trans
+&trans  &trans  &kp LCTRL      &kp LALT      &kp LGUI      &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &kp LA(LC(LG(F5)))  &kp LA(LC(LG(F6)))   &kp LA(LC(LG(F7)))   &kp LA(LC(LG(F8)))   &trans
+&trans  &trans  &trans         &mo 4         &mo 0         &trans                  &trans      &trans                  &trans  &kp LA(LC(LG(F9)))  &kp LA(LC(LG(F10)))  &kp LA(LC(LG(F11)))  &kp LA(LC(LG(F12)))  &trans
+&trans  &trans  &trans         &trans        &trans                &trans  &trans  &trans      &trans  &trans  &trans          &trans              &trans               &trans               &trans               &trans
             >;
         };
     };
