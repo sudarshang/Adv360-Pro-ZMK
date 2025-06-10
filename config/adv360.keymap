@@ -75,11 +75,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp EQUAL   &kp N1    &kp N2     &kp N3    &kp N4     &kp N5            &tog 1                                                       &mo 3       &kp N6         &kp N7  &kp N8    &kp N9    &kp N0   &kp BSLH
-&kp ESC     &kp B     &kp Y      &kp O     &kp U      &kp SINGLE_QUOTE  &kp LSHFT                                                    &kp RSHFT   &kp SEMICOLON  &kp L   &kp D     &kp W     &kp V    &kp Z
-&kp TAB     &kp C     &kp I      &kp E     &kp A      &kp COMMA         &kp LCTRL  &kp LGUI       &kp LALT      &kp RALT  &kp RGUI   &kp RCTRL   &kp DOT        &kp H   &kp T     &kp S     &kp N    &kp Q
-&kp LSHFT   &kp G     &kp X      &kp J     &kp K      &kp MINUS                                   &mo 4         &mo 6                            &kp FSLH       &kp R   &kp M     &kp F     &kp P    &kp RSHFT
-&caps_word  &kp HOME  &kp GRAVE  &kp LEFT  &kp RIGHT                    &kp ENTER  &kp BACKSPACE  &mo 2         &mo 5     &kp SPACE  &kp DELETE                 &kp UP  &kp DOWN  &kp LBKT  &kp END  &mo 6
+&kp EQUAL   &kp N1    &kp N2     &kp N3    &kp N4     &kp N5            &tog 1                                                       &mo 3       &kp N6         &kp N7  &kp N8    &kp N9  &kp N0   &kp BSLH
+&kp ESC     &kp B     &kp Y      &kp O     &kp U      &kp SINGLE_QUOTE  &kp LSHFT                                                    &kp RSHFT   &kp SEMICOLON  &kp L   &kp D     &kp W   &kp V    &kp Z
+&kp TAB     &kp C     &kp I      &kp E     &kp A      &kp COMMA         &kp LCTRL  &kp LGUI       &kp LALT      &kp RALT  &kp RGUI   &kp RCTRL   &kp DOT        &kp H   &kp T     &kp S   &kp N    &kp Q
+&kp LSHFT   &kp G     &kp X      &kp J     &kp K      &kp MINUS                                   &mo 4         &mo 6                            &kp FSLH       &kp R   &kp M     &kp F   &kp P    &kp RSHFT
+&caps_word  &kp HOME  &kp GRAVE  &kp LEFT  &kp RIGHT                    &kp ENTER  &kp BACKSPACE  &mo 2         &mo 5     &kp SPACE  &kp DELETE                 &kp UP  &kp DOWN  &mo 14  &kp END  &mo 6
             >;
         };
 
@@ -137,11 +137,11 @@
 
         layer_Close {
             bindings = <
-&trans  &trans              &trans          &trans          &trans          &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans          &trans
-&trans  &kp LG(LEFT_ARROW)  &kp LG(X)       &kp LG(C)       &kp LG(V)       &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans          &trans
-&trans  &kp LG(RIGHT)       &kp LS(RBKT)    &kp RBKT        &kp LS(N0)      &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans
-&trans  &trans              &kp LA(LG(F2))  &kp LA(LG(F3))  &kp LA(LG(F4))  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans          &trans
-&trans  &trans              &trans          &trans          &trans                  &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &kp LA(LG(F7))  &trans
+&trans  &trans              &trans              &trans            &trans                    &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans          &trans
+&trans  &kp LG(LEFT_ARROW)  &kp LG(X)           &kp LG(C)         &kp LG(V)                 &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans          &trans
+&trans  &kp LG(RIGHT)       &kp LS(LEFT_BRACE)  &kp LEFT_BRACKET  &kp LS(LEFT_PARENTHESIS)  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans
+&trans  &trans              &kp LA(LG(F2))      &kp LA(LG(F3))    &kp LA(LG(F4))            &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans          &trans
+&trans  &trans              &trans              &trans            &trans                            &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &kp LA(LG(F7))  &trans
             >;
         };
 
@@ -219,6 +219,16 @@
 &trans  &trans  &kp LCTRL      &kp LALT      &kp LGUI      &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &kp LA(LC(LG(F5)))  &kp LA(LC(LG(F6)))   &kp LA(LC(LG(F7)))   &kp LA(LC(LG(F8)))   &trans
 &trans  &trans  &trans         &mo 4         &mo 0         &trans                  &trans      &trans                  &trans  &kp LA(LC(LG(F9)))  &kp LA(LC(LG(F10)))  &kp LA(LC(LG(F11)))  &kp LA(LC(LG(F12)))  &trans
 &trans  &trans  &trans         &trans        &trans                &trans  &trans  &trans      &trans  &trans  &trans          &trans              &trans               &trans               &trans               &trans
+            >;
+        };
+
+        parens {
+            bindings = <
+&trans  &trans  &trans        &trans                &trans                 &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp DOLLAR    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp ASTERISK  &kt LEFT_PARENTHESIS  &kt RIGHT_PARENTHESIS  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp END       &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans        &trans                &trans                         &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
