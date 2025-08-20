@@ -137,11 +137,11 @@
 
         layer_Close {
             bindings = <
-&trans  &trans              &trans          &trans          &trans          &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans          &trans
-&trans  &kp LG(LEFT_ARROW)  &kp LG(X)       &kp LG(C)       &kp LG(V)       &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans          &trans
-&trans  &kp LG(RIGHT)       &kp LS(RBKT)    &kp RBKT        &kp LS(N0)      &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans
-&trans  &trans              &kp LA(LG(F2))  &kp LA(LG(F3))  &kp LA(LG(F4))  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans          &trans
-&trans  &trans              &trans          &trans          &trans                  &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &kp LA(LG(F7))  &trans
+&trans  &trans              &trans           &trans             &trans                 &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LG(LEFT_ARROW)  &kp LG(X)        &kp LG(C)          &kp LG(V)              &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LG(RIGHT)       &kp LS(RBKT)     &kp RBKT           &kp LS(N0)             &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans              &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans              &trans           &trans             &trans                         &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
