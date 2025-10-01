@@ -97,11 +97,11 @@
         layer_number {
             display-name = "Num";
             bindings = <
-&kp F1  &kp F2  &kp F3          &kp F4        &kp F5        &kp F6  &tog 1                                      &mo 3   &kp F7     &kp F8     &kp F9     &kp F10  &kp F11    &kp F12
-&trans  &trans  &kp LS(LCTRL)   &kp LS(LALT)  &kp LS(LGUI)  &trans  &none                                       &none   &kp PLUS   &kp N1     &kp N2     &kp N3   &kp N4     &trans
-&trans  &trans  &mo 9           &mo 8         &mo 7         &trans  &none   &trans  &trans      &trans  &trans  &none   &kp EQUAL  &kp N5     &kp N6     &kp N7   &kp N8     &trans
-&trans  &trans  &trans          &mo 4         &mo 4         &trans                  &trans      &trans                  &trans     &kp N9     &kp N0     &kp DOT  &kp COMMA  &trans
-&trans  &trans  &kp LA(LG(F7))  &trans        &trans                &trans  &trans  &trans      &trans  &trans  &trans             &kp MINUS  &kp ASTRK  &trans   &trans     &trans
+&kp F1  &kp F2  &kp F3          &kp F4        &kp F5        &kp F6  &tog 1                                      &mo 3   &kp F7     &kp F8     &kp F9     &kp F10    &kp F11    &kp F12
+&trans  &trans  &kp LS(LCTRL)   &kp LS(LALT)  &kp LS(LGUI)  &trans  &none                                       &none   &kp PLUS   &kp N1     &kp N2     &kp N3     &kp N4     &trans
+&trans  &trans  &mo 9           &mo 8         &mo 7         &trans  &none   &trans  &trans      &trans  &trans  &none   &kp EQUAL  &kp N5     &kp N6     &kp N7     &kp N8     &trans
+&trans  &trans  &trans          &mo 4         &mo 4         &trans                  &trans      &trans                  &trans     &kp N9     &kp N0     &kp DOT    &kp COMMA  &trans
+&trans  &trans  &kp LA(LG(F7))  &trans        &mo 4                 &trans  &trans  &trans      &trans  &trans  &trans             &kp MINUS  &kp ASTRK  &kp SPACE  &kp SPACE  &trans
             >;
         };
 
@@ -131,7 +131,7 @@
 &trans  &kp LS(BSLH)  &kp LS(SEMICOLON)  &kp GRAVE      &kp LS(SINGLE_QUOTE)  &trans  &trans                                      &trans  &trans  &trans    &trans    &trans     &trans  &trans
 &trans  &kp LS(N1)    &kp EQUAL          &kp LS(COMMA)  &kp LS(DOT)           &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp RGUI  &kp RALT  &kp RCTRL  &trans  &trans
 &trans  &kp BSLH      &kp LS(GRAVE)      &kp LS(EQUAL)  &kp LS(MINUS)         &trans                  &trans      &trans                  &trans  &mo 6     &mo 6     &mo 6      &trans  &trans
-&trans  &trans        &trans             &trans         &trans                        &trans  &trans  &trans      &trans  &trans  &trans          &trans    &trans    &trans     &trans  &trans
+&trans  &trans        &trans             &trans         &trans                        &trans  &trans  &trans      &trans  &trans  &trans          &mo 6     &trans    &trans     &trans  &trans
             >;
         };
 
