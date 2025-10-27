@@ -127,11 +127,11 @@
 
         layer_Symbols {
             bindings = <
-&trans  &trans        &trans             &trans         &trans                &trans  &trans                                      &trans  &trans  &trans    &trans    &trans     &trans  &trans
-&trans  &kp LS(BSLH)  &kp LS(SEMICOLON)  &kp GRAVE      &kp LS(SINGLE_QUOTE)  &trans  &trans                                      &trans  &trans  &trans    &trans    &trans     &trans  &trans
-&trans  &kp LS(N1)    &kp EQUAL          &kp LS(COMMA)  &kp LS(DOT)           &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp RGUI  &kp RALT  &kp RCTRL  &trans  &trans
-&trans  &kp BSLH      &kp LS(GRAVE)      &kp LS(EQUAL)  &kp LS(MINUS)         &trans                  &trans      &trans                  &trans  &mo 6     &mo 6     &mo 6      &trans  &trans
-&trans  &trans        &trans             &trans         &trans                        &trans  &trans  &trans      &trans  &trans  &trans          &mo 6     &trans    &trans     &trans  &trans
+&trans  &trans        &trans             &trans         &trans                &trans  &trans                                      &trans  &trans  &trans    &trans        &trans         &trans  &trans
+&trans  &kp LS(BSLH)  &kp LS(SEMICOLON)  &kp GRAVE      &kp LS(SINGLE_QUOTE)  &trans  &trans                                      &trans  &trans  &trans    &trans        &trans         &trans  &trans
+&trans  &kp LS(N1)    &kp EQUAL          &kp LS(COMMA)  &kp LS(DOT)           &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp RGUI  &kp RALT      &kp RCTRL      &trans  &trans
+&trans  &kp BSLH      &kp LS(GRAVE)      &kp LS(EQUAL)  &kp LS(MINUS)         &trans                  &trans      &trans                  &trans  &mo 6     &mo 6         &mo 6          &trans  &trans
+&trans  &trans        &trans             &trans         &trans                        &trans  &trans  &trans      &trans  &trans  &trans          &mo 6     &kp LEFT_GUI  &kp RIGHT_ALT  &trans  &trans
             >;
         };
 
